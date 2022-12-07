@@ -23,7 +23,8 @@ const Button = ({
         'text-sm',
         'text-slate-50',
         'bg-pink-500',
-        'rounded-md'
+        'rounded-md',
+        'shadow-md'
       ].join(' ')}
       {...props}
     >
