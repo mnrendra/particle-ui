@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "ES5",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -14,5 +14,5 @@
     "noEmit": true,
     "jsx": "react"
   },
-  "include": [".", "vite.config.ts"]
+  "include": ["stories", "vite.config.ts"]
 }
