@@ -1,4 +1,4 @@
-import * as atoms from './atoms'
+import * as atoms from './atoms/src'
 
 export {
   atoms
