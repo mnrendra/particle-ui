@@ -24,7 +24,8 @@ const Button = ({
         'text-slate-50',
         'bg-pink-500',
         'rounded-md',
-        'shadow-md'
+        'shadow-md',
+        'hover:shadow-lg'
       ].join(' ')}
       {...props}
     >
