@@ -1,13 +1,20 @@
 {
   "name": "particle-ui",
-  "private": false,
   "version": "0.0.1",
+  "description": "ReactJs atomic-ui components.",
   "type": "module",
+  "private": false,
   "scripts": {
     "dev": "npm run storybook",
     "build": "npm run build-storybook",
     "storybook": "export SET NODE_OPTIONS=--openssl-legacy-provider && start-storybook -p 6006",
     "build-storybook": "build-storybook"
+  },
+  "repository": "git@github.com:mnrendra/particle-ui.git",
+  "author": {
+    "name": "Muhammad Rendra",
+    "email": "muhammadnurrendra@gmail.com",
+    "url": "https://github.com/mnrendra"
   },
   "dependencies": {
     "react": "^18.2.0",
