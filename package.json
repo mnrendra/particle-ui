@@ -3,7 +3,6 @@
   "version": "0.1.1",
   "description": "ReactJs atomic-ui components.",
   "type": "module",
-  "private": false,
   "scripts": {
     "dev": "npm run storybook",
     "build": "npm run build-storybook",
