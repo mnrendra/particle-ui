@@ -3,13 +3,13 @@
   "version": "0.1.1",
   "description": "ReactJs atomic-ui components.",
   "type": "module",
-  "private": false,
   "scripts": {
     "dev": "npm run storybook",
     "build": "npm run build-storybook",
+    "preview": "npm run build && npx http-server ./storybook-static",
     "publish": "npm run chromatic",
-    "storybook": "export SET NODE_OPTIONS=--openssl-legacy-provider && start-storybook -p 6006",
-    "build-storybook": "export SET NODE_OPTIONS=--openssl-legacy-provider && build-storybook",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
     "chromatic": "npx chromatic --project-token=e1cfb3dcc9f6"
   },
   "repository": {

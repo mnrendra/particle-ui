@@ -10,10 +10,11 @@ interface ButtonProps {
  */
 const Button = ({
   label = '',
-  ...props
+  onClick = () => {}
 }: ButtonProps) => {
   return (
     <button
+      onClick={onClick}
       type='button'
       className={[
         'h-9',
@@ -22,12 +23,11 @@ const Button = ({
         'font-medium',
         'text-sm',
         'text-slate-50',
-        'bg-pink-500',
+        'bg-blue-500',
         'rounded-md',
         'shadow-md',
         'hover:shadow-lg'
       ].join(' ')}
-      {...props}
     >
       {label}
     </button>
