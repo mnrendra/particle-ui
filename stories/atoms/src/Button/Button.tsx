@@ -22,7 +22,7 @@ const Button = ({
         'font-medium',
         'text-sm',
         'text-slate-50',
-        'bg-pink-500',
+        'bg-red-500',
         'rounded-md',
         'shadow-md',
         'hover:shadow-lg'
