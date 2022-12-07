@@ -1,2 +1,2 @@
-# Particle-UI  
+# Particle UI  
 ReactJs' atomic-ui components.  
